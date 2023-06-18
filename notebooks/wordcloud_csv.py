@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[10]:
+# In[14]:
 
 
 import os
@@ -10,32 +10,18 @@ from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 
 
-# In[3]:
-
-
-# get cwd
-cwd = os.getcwd()
-cwd
-
-
-# In[4]:
-
-
-ls
-
-
-# In[7]:
+# In[12]:
 
 
 # construct the path
-file_path = os.path.join(cwd, 'SDFB_people.csv')
+file_path = os.path.join(cwd, 'data/SDFB_people.csv')
 
 # read the file
 df = pd.read_csv(file_path)
 df.head()
 
 
-# In[11]:
+# In[15]:
 
 
 # get all the text that is not null
