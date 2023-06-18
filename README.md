@@ -12,5 +12,7 @@ simple wordcloud format
 notebook copied with edit from Rachael Tatman 
 (kaggle.com/rtatman/notebooks)
 
+# Results
+
 ![simple wordcloud](./wordcloud.png)
 
