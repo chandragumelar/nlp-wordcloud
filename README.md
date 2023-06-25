@@ -8,5 +8,5 @@ simple wordcloud format
 
 # Results
 
-![simple wordcloud](./wordcloud_result.png)
+![simple wordcloud](./wordcloud_output.png)
 
